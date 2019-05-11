@@ -1,3 +1,5 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
-  def create_table 
+  def change 
+    add_column
+  end 
 end 
